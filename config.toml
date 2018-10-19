@@ -1,0 +1,44 @@
+title = "AdiFaidz"
+baseURL = "https://tomanistor.com"
+tags = ["portfolio", "web design"]
+languageCode = "en-US"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "tomanistor"
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+    # tagline = "Creativity is a Choice"
+    author = "Adi Faidz"
+    description = "Full-stack web developer, Laravel and Node.js enthusiast from Malaysia"
+    logoBig = "/images/logo.svg"
+    logoSmall = "/images/logo-long.svg"
+    favicon = "favicon.png"
+    opengraphImage = "/images/logo.svg"
+    twitter = "AdiFaidz"
+    github = "adifaidz"
+    facebook = "manderem"
+    email = "adifaidzabdullah@gmail.com"
+    googleTagManager = ""
+    highlightJS = true
+    copyright = true
+    credit = false
+    customCSS = true
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+[[menu.main]]
+    name = "Work"
+    url  = "/#work"
+    weight = 2
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 4

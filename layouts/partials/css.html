@@ -1,0 +1,71 @@
+<style>
+
+*{
+    color: white;
+}
+
+a:hover{
+    color: #2c1d2c;
+}
+a:hover *{
+    color: #271827;
+    transition: color .2s ease-out;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+h1, h2, h3{
+    font-family: "Rubik","Poppins","Hel­vetica",Arial,sans-serif;
+}
+
+body {
+    background-color: rgba(12, 0, 12, 0.7);
+    background-image: url('images/wall4.png');
+    background-position: top left;
+    background-blend-mode: multiply
+    /* background-repeat: repeat; */
+}
+
+header, footer, main, section.contact, nav:not(.nav-fixed){
+    background: transparent;
+}
+nav:not(.nav-fixed) .logo a{
+    display: none;
+}
+
+nav.nav-fixed{
+    background: linear-gradient(to top, #1a001a, #0C000C );
+}
+
+.gallery img {
+    max-height: 300px;
+    padding: 4rem;
+}
+
+span.cursor{
+    display: none;
+}
+
+.overlay a:hover{
+    color: #00eeff;
+}
+
+section.contact .header-contact{
+    text-align: center;
+    background-color: rgba(12, 0, 12);
+    padding: 1rem;
+}
+
+input, textarea{
+    border-width: 0;
+}
+input[type="submit"], textarea[type="submit"]{
+    background-color: rgba(12, 0, 12);
+}
+</style>
+<link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" 
+integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" 
+crossorigin="anonymous">
