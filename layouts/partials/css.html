@@ -1,42 +1,32 @@
 <style>
-
-*{
-    color: white;
-}
-
-a:hover{
-    color: #2c1d2c;
-}
-a:hover *{
-    color: #271827;
-    transition: color .2s ease-out;
-    transition-property: color;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-out;
-    transition-delay: 0s;
-}
-
 h1, h2, h3{
     font-family: "Rubik","Poppins","Hel­vetica",Arial,sans-serif;
 }
 
-body {
-    background-color: rgba(12, 0, 12, 0.7);
-    background-image: url('images/wall4.png');
-    background-position: top left;
-    background-blend-mode: multiply
-    /* background-repeat: repeat; */
-}
-
-header, footer, main, section.contact, nav:not(.nav-fixed){
-    background: transparent;
-}
 nav:not(.nav-fixed) .logo a{
     display: none;
 }
 
-nav.nav-fixed{
+header, footer, nav.nav-fixed{
     background: linear-gradient(to top, #1a001a, #0C000C );
+}
+
+nav:not(.nav-fixed) {
+    background: transparent;
+}
+
+nav * {
+    color: white;
+
+}
+
+nav a:hover, footer i:hover, .about a:hover, .about a:hover *{
+    color: #AC84AC;
+}
+
+.about a {
+    background-image: linear-gradient(to top, #AC84AC, #AC84AC );
+
 }
 
 .gallery img {
@@ -49,27 +39,23 @@ span.cursor{
 }
 
 .overlay a:hover{
-    color: #00eeff;
+    color: #AC84AC;
 }
 
-section.contact .header-contact{
-    border-radius: 10px;
-    background-color: #0c000c;
-    text-align: center;
-    padding: 1rem;
-    font-weight: 600;
-}
-
-input, textarea{
-    border-width: 0;
-}
 input[type="submit"], textarea[type="submit"]{
-    background-color: #0c000c;
+    background: linear-gradient(to top, #1a001a, #0C000C );
 }
 
-footer .copyright{
-    font-size: 15px;
+input[type="submit"]:hover, textarea[type="submit"]:hover{
+    background: linear-gradient(to top, #1a001a, #0C000C );
 }
+
+footer *{
+    color: white
+}
+
+
+
 </style>
 <link rel="stylesheet" 
     href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" 

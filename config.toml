@@ -21,6 +21,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
     github = "adifaidz"
     facebook = "manderem"
     email = "adifaidzabdullah@gmail.com"
+    basin = "https://usebasin.com/f/cd0b4425e94d"
     googleTagManager = ""
     highlightJS = true
     copyright = true
